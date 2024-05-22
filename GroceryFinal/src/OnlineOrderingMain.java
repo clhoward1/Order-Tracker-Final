@@ -22,6 +22,9 @@ import view.OrderPanel;
 * I have not used unauthorized source code, either modified or
 * unmodified. I have not given other fellow student(s) access
 * to my program.
+* ChatGPT assisted in the creation of this program by helping with
+* the more repetitive aspects such as a lot of the GUI elements such as
+* labels and text fields and by helping flesh out logic.
 ***************************************************************/
 public class OnlineOrderingMain {
 
