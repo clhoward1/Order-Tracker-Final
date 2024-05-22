@@ -320,9 +320,18 @@ public class OrderPanel extends JPanel {
 	            int hourDue = Integer.parseInt(hourDueField.getText());
 	            Customer customer = new Customer(customerField.getText(), Integer.toString(custIDCounter));
 	            custIDCounter++;
-	
+
+			/**
+   			 * Splits information for each item into an array using the commas
+       			 */
 	            String[] items = itemOrderField.getText().split(",");
-	            LinkedList<Item> itemOrder = new LinkedList<>();
+	            LinkedList<Item> itemOrder = new LinkedList<>(); // stores the items made from itemOrderField and is used to make a new order
+
+			/**
+   			 * For each item, it splits off the item name and amount into another array using the hyphen
+       			 * 
+	   		 * The name and amount are used to make a new Item object, which is then put into the LinkedList
+       			 */
 	            for (String itemStr : items) {
 	                String[] itemDetails = itemStr.split("-");
 	                
