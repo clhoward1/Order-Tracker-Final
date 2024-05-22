@@ -7,23 +7,24 @@ import view.OrderPanel;
 * Name : Digital Order Tracker
 * Author: Cory Howard
 * Created : May 20, 2024
-* Course: CIS 152 - Data Structure
+* Course: CIS 152 - Data Structures
 * Version: 1.0
 * OS: Windows 10
 * IDE: Java Eclipse EE
 * Copyright : This is my own original work 
 * based on specifications issued by our instructor
-* Description : An app that tries to mimic what my online grocery job system is like
-* 				This will be nowhere near close to how it actually is
+* Description : An app that tries to mimic what my online grocery job system is like.
+* 		This will be nowhere near close to how it actually is.
 *            Input: Many strings and buttons
-*            Output: JPanel output of strings (?)
+*            Output: Order information as strings on JPanels
 *            BigO: O(n^2)
 * Academic Honesty: I attest that this is my original work.
 * I have not used unauthorized source code, either modified or
 * unmodified. I have not given other fellow student(s) access
 * to my program.
+*
 * ChatGPT assisted in the creation of this program by helping with
-* the more repetitive aspects, such as a lot of the GUI elements like
+* the more repetitive aspects, such as many of the GUI elements like
 * labels, text fields, and buttons. It also helped flesh out program logic.
 ***************************************************************/
 public class OnlineOrderingMain {
