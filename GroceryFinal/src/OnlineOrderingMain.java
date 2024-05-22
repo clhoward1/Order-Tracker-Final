@@ -4,7 +4,7 @@ import javax.swing.JPanel;
 import view.OrderPanel;
 
 /***************************************************************
-* Name : Program Name
+* Name : Digital Order Tracker
 * Author: Cory Howard
 * Created : May 20, 2024
 * Course: CIS 152 - Data Structure
@@ -23,8 +23,8 @@ import view.OrderPanel;
 * unmodified. I have not given other fellow student(s) access
 * to my program.
 * ChatGPT assisted in the creation of this program by helping with
-* the more repetitive aspects such as a lot of the GUI elements like
-* labels and text fields and by helping flesh out logic.
+* the more repetitive aspects, such as a lot of the GUI elements like
+* labels, text fields, and buttons. It also helped flesh out program logic.
 ***************************************************************/
 public class OnlineOrderingMain {
 
